@@ -1,15 +1,15 @@
 {
     "manifest_version": 2,
-    "name": "Recommend Block",
+    "name": "Recommendation Blocker",
     "description": "\"他の人はこちらも検索\"をBlockします",
-    "version": "0.1",
+    "version": "0.2",
     "icons": {
         "128": "img/icon.png"
     },
     "content_scripts": [
         {
             "matches":  ["https://www.google.co.jp/*"],
-            "js": ["src/contentscript.js"],
+            "css": ["css/style.css"],
             "run_at": "document_end"
         }
     ]
