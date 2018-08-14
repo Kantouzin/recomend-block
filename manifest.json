@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Recommend Block",
+    "name": "Recommendation Blocker",
     "description": "\"他の人はこちらも検索\"をBlockします",
     "version": "0.2",
     "icons": {
