@@ -1,0 +1,8 @@
+.exp-outline {
+    display: none !important
+}
+
+.exp-outline + div > div:nth-child(3) {
+    display: none !important
+}
+
